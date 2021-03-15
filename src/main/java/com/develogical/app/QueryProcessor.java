@@ -13,6 +13,13 @@ public class QueryProcessor {
                     "his friend William Wordsworth, was a founder of the Romantic Movement " +
                     "in England and a member of the Lake Poets.";
         }
+        if (query.toLowerCase().contains("byron")){
+            return "George Gordon Byron, 6th Baron Byron, FRS (22 January 1788 - 19 April 1824), " +
+                    "known simply as Lord Byron, was an English peer, who was a poet and politician. " +
+                    "He was one of the leading figures of the Romantic movement and is regarded as " +
+                    "one of the greatest English poets.";
+        }
+
         return "";
     }
 }
